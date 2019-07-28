@@ -1,0 +1,10 @@
+h2{
+	font-size: 70px;
+	color:blue;
+	text-align: center;
+	border:2px dashed black;
+}
+
+body{
+	background-color: yellow;
+}

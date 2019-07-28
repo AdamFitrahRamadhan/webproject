@@ -1,0 +1,87 @@
+.navbar-inverse {
+    background-color: #e40f0f;
+    border-color: #e2dada;
+    border-bottom: 5px solid;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff5f5;
+	font-weight: bold;
+	transition:all 0.5s;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    background:grey;
+	transition:all 0.5s;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #a22e2e;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #ffe0e0;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff4f4;
+}
+}
+@media (max-width: 767px){
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #820f0f;
+}
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 5px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.jarak {
+	margin-top:20px;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 50%;
+}
+.panel-default > .panel-heading {
+    text-align: center;
+    font-size: 25;
+}

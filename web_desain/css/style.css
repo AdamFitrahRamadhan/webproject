@@ -1,0 +1,124 @@
+body{
+    margin: 0 0 0 ! important;
+    background-size:cover;
+    background-attachment: fixed;
+
+    
+}
+.navbar-default {
+    background-color: transparent;
+    transition: all 0.5s;
+    border-color: transparent;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f3ecec;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: grey;
+}
+.navbar-default .navbar-brand {
+    color: #fdf5f5;
+}
+.a{
+  color: #A70909 !important;
+}
+.a:hover{
+  color: grey !important;
+}
+.b{
+  color:#A70909 !important;
+}
+.fix{
+  transition: all 0.5s;
+  background: white;
+}
+.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: black;
+    color: white;
+}
+@media (max-width:767px){
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color:#ffffff;
+  }
+}
+.jarak {
+    margin-top:20px;
+}
+.jarak-samping{
+    margin-left: 70px;
+}
+.img-circle{
+  width: 100%;
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #A70909;
+    border-color: #A70909;
+}
+h5 {
+    color:red;
+
+}
+h4{
+    color :red;
+    font-family: fantasy;
+    font-size: 50px;
+}
+h2{
+    color:white;
+    font-family: fantasy;
+}
+.ayo{
+    margin:0 auto;
+    width:auto;
+    height:650px;
+    background:#9b0707;
+    padding:1%;
+}
+.ayo1{
+    margin:0 auto;
+    width:auto;
+    height:680px;
+    background:transparent;
+    padding:1%;
+    padding-top:10px;
+}
+.ayo2{
+    margin:0 auto;
+    width:auto;
+    height:500px;
+    background:white;
+    padding:1%;
+    padding-top:10px;
+}
+.ayo3{
+    margin: 0 auto;
+    width:200px;
+    height: 15px;
+    background-color: red;
+}
+.ayo4{
+    margin:0 auto;
+    width: 100%;
+    height:50px;
+    background-color:#9b0707; 
+}
+#marvel{
+    opacity: 0;
+    background-color: red;
+}
+p{
+    color:white;
+}
